@@ -16,10 +16,10 @@ const Footer = () => {
         {/* Logo & About */}
         <div className="footer-logo-section">
           <div className="footer-logo">
-            <img src={logo} alt="Pharma Syncs Logo" />
+            <img src={logo} alt="Pharma Sync Logo" />
           </div>
           <p>
-            <strong>Pharma Syncs</strong> is a trusted pharmacy and supplier
+            <strong>Pharma Sync</strong> is a trusted pharmacy and wholeseller
             management platform that connects wholesalers, retailers, and
             patients with authentic medicines and healthcare products. Our goal
             is to ensure reliability, accessibility, and care for every order.
@@ -111,7 +111,7 @@ const Footer = () => {
       {/* Bottom */}
       <div className="footer-bottom">
         <p>
-          © 2025 Pharma Syncs. All rights reserved. Designed with ❤️ to make
+          © 2025 Pharma Sync. All rights reserved. Designed with ❤️ to make
           healthcare accessible for everyone.
         </p>
       </div>

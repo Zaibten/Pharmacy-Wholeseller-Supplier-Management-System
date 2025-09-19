@@ -190,7 +190,7 @@ const SearchShop = () => {
           {/* Search Bar */}
           <div className="d-flex justify-content-center align-items-center pt-3">
             <input
-              placeholder="Search Supplier"
+              placeholder="Search Wholeseller"
               type="search"
               value={search}
               onChange={(e) => setSearch(e.target.value)}

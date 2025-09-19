@@ -334,7 +334,7 @@ const handleSignUp = async (e) => {
             </button>
           </div>
 
-          <img src={logo} className="image" alt="" />
+          <img src={logo} className="image" alt="" style={{ width: "400px", height: "auto" }} />
         </div>
 
         <div className="panel right-panel">
@@ -354,7 +354,7 @@ const handleSignUp = async (e) => {
             </button>
           </div>
 
-          <img src={logo} className="image" alt="" />
+          <img src={logo} className="image" alt="" style={{ width: "400px", height: "auto" }} />
         </div>
       </div>
     </div>

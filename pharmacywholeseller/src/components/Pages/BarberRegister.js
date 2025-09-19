@@ -50,7 +50,7 @@ const BarberRegister = () => {
       return;
     }
     let varient = "warning";
-    let messageText = "Preparing Supplier View!!";
+    let messageText = "Preparing Wholeseller View!!";
     sendMessage(messageText, varient);
     await ProfessionalSignUp(regValue, sendMessage, isUser);
     setRegValue({
@@ -98,7 +98,7 @@ const BarberRegister = () => {
             <div className="modal-header border-0 position-relative">
               <h5 className="modal-title" id="exampleModalLabel">
                 <span className="border text-white py-2 ps-3">
-                  Supplier{" "}
+                  Wholeseller{" "}
                   <span className="py-2 pe-3 bg-white text-black"> Login</span>
                 </span>
               </h5>

@@ -23,7 +23,7 @@ const SearchHome = () => {
       className="py-2 px-2 text-white"
       style={{ backgroundColor: "#e29521" }}
     >
-      SUPPLIER
+      Wholeseller
     </span>
   </span>
 </h6>
@@ -34,7 +34,7 @@ const SearchHome = () => {
           <NavLink to={"/search"}>
             <form className="align-items-center d-flex">
               <input
-                placeholder="Search Your Supplier..."
+                placeholder="Search Your Wholeseller..."
                 type="search"
                 id="HomeSearch"
                 className="search-input text-dark w-100 border-0 ms-2 me-2 py-3"

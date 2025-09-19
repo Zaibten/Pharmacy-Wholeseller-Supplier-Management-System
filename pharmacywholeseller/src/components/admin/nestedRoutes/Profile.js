@@ -437,7 +437,7 @@ const ProfileImgHandle = async (e) => {
           </div>
           <div className="col-12 col-sm-6 mt-2">
             <label>
-              Supplier Address<span className="text-danger">*</span>
+              Wholeseller Address<span className="text-danger">*</span>
             </label>
             <input
               type="text"

@@ -137,11 +137,11 @@ const styles = {
         fontFamily: "'Segoe UI', sans-serif",
       }}
     >
-      ABOUT Pharma Syncs
+      ABOUT Pharma Sync
     </h1>
 
     <p style={styles.subHeader}>
-      Bridging patients, pharmacies, and suppliers — trusted medicines,
+      Bridging patients, pharmacies, and wholeseller — trusted medicines,
       delivered fast and reliably.
     </p>
 
@@ -149,13 +149,13 @@ const styles = {
     <div style={styles.row}>
       <div style={styles.columnText}>
         <p>
-          <strong>Pharma Syncs</strong> is the simplest way to manage and access
+          <strong>Pharma Sync</strong> is the simplest way to manage and access
           medicines around you. Whether you need life-saving drugs, daily
           essentials, or healthcare products — we’re here to ensure safe and
           timely delivery.
         </p>
         <p>
-          We partner with trusted pharmacies, wholesalers, and suppliers to
+          We partner with trusted pharmacies, wholesalers, and wholeseller to
           provide authentic medicines, real-time stock updates, and seamless
           ordering. Our mission is to make healthcare accessible and reliable
           for everyone.
@@ -202,7 +202,7 @@ const styles = {
 
       <div style={styles.testimonialCard}>
         <p style={styles.testimonialText}>
-          "Fast delivery, genuine medicines, and excellent support. Pharma Syncs
+          "Fast delivery, genuine medicines, and excellent support. Pharma Sync
           makes getting my prescriptions so easy!"
         </p>
         <div style={styles.testimonialAuthor}>– Sarah J.</div>
@@ -210,7 +210,7 @@ const styles = {
 
       <div style={styles.testimonialCard}>
         <p style={styles.testimonialText}>
-          "Pharma Syncs completely changed how I purchase medicines. It’s smooth
+          "Pharma Sync completely changed how I purchase medicines. It’s smooth
           and reliable every time."
         </p>
         <div style={styles.testimonialAuthor}>– Mike T.</div>
