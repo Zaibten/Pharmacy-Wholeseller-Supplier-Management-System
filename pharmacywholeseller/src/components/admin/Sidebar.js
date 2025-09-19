@@ -9,7 +9,7 @@ import { message } from "antd";
 
 const Sidebar = () => {
   const imgPath =
-    "https://c8.alamy.com/comp/2A1H0AA/medical-pharmacy-logo-design-template-vector-illustrator-medicine-symbol-medical-logo-cross-plus-medical-logo-icon-design-template-elements-2A1H0AA.jpg";
+    "https://res.cloudinary.com/dh7kv5dzy/image/upload/v1758281172/logo_bnqsez.png";
   const auth = getAuth();
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -61,10 +61,11 @@ const Sidebar = () => {
             src={imgPath}
             alt="Profile"
             style={{
-              width: "80px",
-              height: "80px",
-              borderRadius: "50%",
-              border: "3px solid #ff7e00",
+              width: "120px",
+              // padding:"1px",
+              // height: "120px",
+              // borderRadius: "50%",
+              // border: "3px solid #ff7e00",
               transition: "transform 0.3s",
             }}
           />

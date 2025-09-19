@@ -36,8 +36,8 @@ const ProfessionalProfile = () => {
     bookingsPerDay: "200", // <-- Add this state for bookings per day
     bookingDone: 0, // Default value
     bookingLeft: 0, // Default value
-    xCoordinate: "",
-    yCoordinate: "",
+    xCoordinate: "123",
+    yCoordinate: "123",
     ntnNo: "",
     licenceno:"",
   });
@@ -444,7 +444,7 @@ const ProfileImgHandle = async (e) => {
               value={profile.shopAddress}
               name="shopAddress"
               onChange={FormOnChangeHandler}
-              placeholder="restaurent address"
+              placeholder="shop address"
               className="form-control"
             />
           </div>
@@ -515,7 +515,7 @@ const ProfileImgHandle = async (e) => {
 </div>
 
 
-          <div className="col-12 col-sm-6 mt-2">
+          {/* <div className="col-12 col-sm-6 mt-2">
   <label>
     X Coordinate <span className="text-danger">*</span>
   </label>
@@ -528,9 +528,9 @@ const ProfileImgHandle = async (e) => {
     className="form-control"
     required
   />
-</div>
+</div> */}
 
-<div className="col-12 col-sm-6 mt-2">
+{/* <div className="col-12 col-sm-6 mt-2">
   <label>
     Y Coordinate <span className="text-danger">*</span>
   </label>
@@ -543,7 +543,7 @@ const ProfileImgHandle = async (e) => {
     className="form-control"
     required
   />
-</div>
+</div> */}
 <div className="col-12 col-sm-6 mt-2">
             <label>
               Google Map Embed Link <span className="text-danger">*</span>

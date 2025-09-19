@@ -107,18 +107,27 @@ const Header = () => {
             flexWrap: "wrap",
           }}
         >
-          {/* Logo */}
-          <Link
-            to="/"
-            style={{
-              fontSize: "22px",
-              fontWeight: "bold",
-              color: "#fff",
-              textDecoration: "none",
-            }}
-          >
-<span style={{ color: "#ff6600" }}>💊 Pharma Sync</span>
-          </Link>
+  {/* Logo */}
+<Link
+  to="/"
+  style={{
+    fontSize: "22px",
+    fontWeight: "bold",
+    color: "#fff",
+    textDecoration: "none",
+    display: "flex",
+    alignItems: "center",
+    gap: "8px", // spacing between image and text
+  }}
+>
+  <img
+    src="https://res.cloudinary.com/dh7kv5dzy/image/upload/v1758281415/Screenshot_2025-09-19_162939-removebg-preview_ulst5m.png"
+    alt="Pharma Sync Logo"
+    style={{ width: "28px", height: "28px", objectFit: "contain" }}
+  />
+  <span style={{ color: "#ff6600" }}>Pharma Sync</span>
+</Link>
+
 
           {/* Hamburger Icon */}
           <div

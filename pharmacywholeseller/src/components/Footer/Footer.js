@@ -16,8 +16,13 @@ const Footer = () => {
         {/* Logo & About */}
         <div className="footer-logo-section">
           <div className="footer-logo">
-            <img src={logo} alt="Pharma Sync Logo" />
-          </div>
+  <img 
+    src={logo} 
+    alt="Pharma Sync Logo" 
+    style={{ width: "250px", height: "auto", display: "block", margin: "0 auto" }} 
+  />
+</div>
+
           <p>
             <strong>Pharma Sync</strong> is a trusted pharmacy and Supplier
             management platform that connects wholesalers, retailers, and
