@@ -11,19 +11,20 @@ const About = () => {
         </h3>
         <div className="row align-items-center mt-4">
           <div className="col-12 col-sm-6 animate-fade">
-           <p className="about-text">
-  Welcome to <strong className="hotpink-text">Pharma Sync</strong>, your
-  go-to destination for ordering delicious food from your favorite restaurants!
-  Our mission is to connect you with the best eateries in your area and make
-  ordering your next meal quick and easy. Thank you for choosing{" "}
-  <strong className="hotpink-text">Pharma Sync!</strong>
-</p>
-
+            <p className="about-text">
+              Welcome to <strong className="hotpink-text">Pharma Sync</strong>, 
+              your trusted destination for ordering medicines, healthcare 
+              essentials, and wellness products! Our mission is to connect 
+              wholesalers, pharmacies, and retailers in one seamless platform, 
+              making access to healthcare products quick and convenient.  
+              Thank you for choosing{" "}
+              <strong className="hotpink-text">Pharma Sync!</strong>
+            </p>
           </div>
           <div className="col-12 col-sm-6 animate-zoom">
             <img
-              src="https://media.istockphoto.com/id/1446478827/photo/a-chef-is-cooking-in-his-restaurants-kitchen.jpg?s=612x612&w=0&k=20&c=jwKJmGErrLe2XsTWNYEEyiNicudYVA4j8jvnTiJdp58="
-              alt="RESTAURENT"
+              src="https://img.pikbest.com/wp/202413/medical-health-care-three-dimensional-gene-chain-products-web-banner_9105592.jpg!w700wp"
+              alt="Pharmacy"
               className="w-100 rounded-shadow"
             />
           </div>
@@ -34,16 +35,16 @@ const About = () => {
       <div className="container section animate-fade-up">
         <div className="stats-container">
           <div className="stat-card animate-scale">
-            <h2>2K+</h2>
+            <h2>10K+</h2>
             <p>Happy Customers</p>
           </div>
           <div className="stat-card animate-scale">
-            <h2>#1</h2>
-            <p>Worldwide Ranking</p>
+            <h2>1K+</h2>
+            <p>Retailers & Wholesalers</p>
           </div>
           <div className="stat-card animate-scale">
             <h2>500+</h2>
-            <p>Partnered Shops</p>
+            <p>Partnered Pharmacies</p>
           </div>
         </div>
       </div>
@@ -56,22 +57,22 @@ const About = () => {
         <div className="testimonial-container">
           <div className="testimonial-card animate-fade">
             <p>
-              "I love how easy it is to find RESTAURENTS through Pharma Sync!
-              Their platform is user-friendly and always up-to-date."
+              "Pharma Sync makes it so easy to order medicines online. The
+              delivery is always on time and hassle-free!"
             </p>
             <h5>- Sarah J.</h5>
           </div>
           <div className="testimonial-card animate-fade-up">
             <p>
-              "The best experience ever! The reviews helped me choose the
-              perfect RESTAURENT for my makeover."
+              "As a retailer, I love how I can connect directly with wholesalers
+              and get the best deals on pharma products."
             </p>
-            <h5>- Emily R.</h5>
+            <h5>- Ahmed R.</h5>
           </div>
           <div className="testimonial-card animate-fade">
             <p>
-              "I can’t imagine going back to the old ways of finding RESTAURENTS.
-              Pharma Sync makes everything so convenient!"
+              "Pharma Sync has truly simplified how I shop for healthcare
+              products. It’s convenient and reliable."
             </p>
             <h5>- Olivia P.</h5>
           </div>
@@ -82,11 +83,12 @@ const About = () => {
       <div className="container section animate-fade-up">
         <h3 className="text-center hotpink-text">Our Mission</h3>
         <p className="text-center mission-text">
-          At Pharma Sync, our mission is to empower individuals to express
-          themselves through their style. We aim to bridge the gap between
-          clients and top-notch RESTAURENTS, ensuring every experience is a memorable
-          one. Whether it’s a quick trim or a complete transformation, we are
-          here to make it happen.
+          At Pharma Sync, our mission is to ensure easy access to safe,
+          affordable, and authentic healthcare products. We aim to bridge
+          the gap between wholesalers, pharmacies, and customers by building
+          a platform that is reliable, transparent, and efficient. Whether
+          it’s daily essentials, prescription medicines, or wellness
+          products – Pharma Sync is here to serve you.
         </p>
       </div>
     </div>
