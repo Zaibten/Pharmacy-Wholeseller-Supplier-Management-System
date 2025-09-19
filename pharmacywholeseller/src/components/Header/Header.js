@@ -82,14 +82,14 @@ const Header = ({ isUser, isPro }) => {
                   {isPro ? (
                     ""
                   ) : (
-                    <button
+                    {/* <button
                       to={"/professional-register"}
                       className="me-5 text-decoration-underline border-0 fw-bold bg-black text-warning"
                       data-mdb-toggle="modal"
                       data-mdb-target="#exampleModal"
                     >
                       Register as Wholeseller
-                    </button>
+                    </button> */}
                   )}
 
                   {isUser ? (
