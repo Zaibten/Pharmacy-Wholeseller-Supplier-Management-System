@@ -98,7 +98,7 @@ const BarberRegister = () => {
             <div className="modal-header border-0 position-relative">
               <h5 className="modal-title" id="exampleModalLabel">
                 <span className="border text-white py-2 ps-3">
-                  Wholeseller{" "}
+                  Supplier{" "}
                   <span className="py-2 pe-3 bg-white text-black"> Login</span>
                 </span>
               </h5>
