@@ -19,7 +19,7 @@ const Footer = () => {
             <img src={logo} alt="Pharma Sync Logo" />
           </div>
           <p>
-            <strong>Pharma Sync</strong> is a trusted pharmacy and Wholeseller
+            <strong>Pharma Sync</strong> is a trusted pharmacy and Supplier
             management platform that connects wholesalers, retailers, and
             patients with authentic medicines and healthcare products. Our goal
             is to ensure reliability, accessibility, and care for every order.

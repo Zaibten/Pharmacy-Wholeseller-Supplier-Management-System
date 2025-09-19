@@ -130,7 +130,7 @@ const Header = () => {
 
           {/* Main Navigation */}
           <div className={`main-nav ${showMenu ? "show" : ""}`}>
-            <Link to="/search" style={navStyle(path === "/search")}>Wholeseller</Link>
+            <Link to="/search" style={navStyle(path === "/search")}>Supplier</Link>
             {/* <Link to="/tablebooking" style={navStyle(path === "/tablebooking")}>Book Table</Link> */}
             <Link to="/order" style={navStyle(path === "/order")}>Orders</Link>
             <Link to="/Profile" style={navStyle(path === "/Profile")}>Profile</Link>

@@ -323,7 +323,7 @@ const handleSignUp = async (e) => {
             </h3>
 
             <p className="loginp">
-              Fod Planet, your one stop solution for cravings
+              Pharma Sync, your one stop solution for pharmacy
             </p>
 
             <button
@@ -342,7 +342,7 @@ const handleSignUp = async (e) => {
             <h3 className="loginh3">Already Registered ?</h3>
 
             <p className="loginp">
-               Fod Planet, your one stop solution for cravings
+               Pharma Sync, your one stop solution for pharmacy
             </p>
 
             <button

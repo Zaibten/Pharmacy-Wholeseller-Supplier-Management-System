@@ -71,7 +71,7 @@ const Header = ({ isUser, isPro }) => {
                   data-mdb-toggle="modal"
                   data-mdb-target="#exampleModal"
                 >
-                  Register as Wholeseller
+                  Register as Supplier
                 </h6>
               </div>
             )}

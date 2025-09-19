@@ -50,7 +50,7 @@ const BarberRegister = () => {
       return;
     }
     let varient = "warning";
-    let messageText = "Preparing Wholeseller View!!";
+    let messageText = "Preparing Supplier View!!";
     sendMessage(messageText, varient);
     await ProfessionalSignUp(regValue, sendMessage, isUser);
     setRegValue({

@@ -153,10 +153,10 @@ const addToCart = (service) => {
   return (
     <div className="w-100">
       <div className="container">
-        <Breadcrumb path="Shop Details" activePage={"Wholeseller"} text="white" />
+        <Breadcrumb path="Shop Details" activePage={"Supplier"} text="white" />
         <h3 className="text-white text-center">
           <span className="border py-2 ps-4">
-            Wholeseller {" "}
+            Supplier {" "}
              <span className="bg-white text-black py-2 pe-1"></span>
             <span className="bg-white text-black py-2 pe-4"> DETAIL</span>
           </span>
