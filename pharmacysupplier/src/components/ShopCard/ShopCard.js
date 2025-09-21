@@ -8,13 +8,13 @@ import { getFirestore, collection, getDocs } from "firebase/firestore";
 
 // Firebase configuration
 const config = {
-  apiKey: "AIzaSyAd0K-Y8AnNXSJXQRZeQtphPZQPOkSAgmo",
-  authDomain: "foodplanet-82388.firebaseapp.com",
-  projectId: "foodplanet-82388",
-  storageBucket: "foodplanet-82388.firebasestorage.app",
-  messagingSenderId: "898880937459",
-  appId: "1:898880937459:web:2c23717c73ffdf2eef8686",
-  measurementId: "G-CPEP0M2EXG",
+apiKey: "AIzaSyBDtmCqkkqlmzGuNqHe-PehhDg5tZiPSsQ",
+  authDomain: "pharma-sync-project.firebaseapp.com",
+  projectId: "pharma-sync-project",
+  storageBucket: "pharma-sync-project.firebasestorage.app",
+  messagingSenderId: "928044969233",
+  appId: "1:928044969233:web:5b00111741f83c32bef0b0",
+  measurementId: "G-JVFXC10383"
 };
 
 // Initialize Firebase
