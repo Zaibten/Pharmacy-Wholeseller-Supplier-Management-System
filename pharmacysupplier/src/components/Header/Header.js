@@ -121,9 +121,9 @@ const Header = () => {
   }}
 >
   <img
-    src="https://res.cloudinary.com/dh7kv5dzy/image/upload/v1758281415/Screenshot_2025-09-19_162939-removebg-preview_ulst5m.png"
+    src="https://res.cloudinary.com/dh7kv5dzy/image/upload/v1758444248/Screenshot_2025-09-21_134346_v5fnlf.png"
     alt="Pharma Sync Logo"
-    style={{ width: "28px", height: "28px", objectFit: "contain" }}
+    style={{ width: "35px", height: "35px", objectFit: "contain",borderRadius:"50%" }}
   />
   <span style={{ color: "#ff6600" }}>Pharma Sync</span>
 </Link>
