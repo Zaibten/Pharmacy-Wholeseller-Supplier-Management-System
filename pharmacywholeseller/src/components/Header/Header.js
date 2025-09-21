@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import "./Header.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/mk.png";
 import BarberRegister from "../Pages/BarberRegister";
 import store from "../../Redux/reduxStore";
 import { addAuth } from "../../Redux/Slices/AuthSlice";

@@ -23,12 +23,12 @@
     text-align: center;
   }
   
-  .footer-logo img {
-    width: 120px;
-    height: 110px;
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  }
+.footer-logo img {
+  width: 140px;
+  height: 120px;
+  border-radius: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
   
   .footer-logo-section p {
     margin-top: 1rem;

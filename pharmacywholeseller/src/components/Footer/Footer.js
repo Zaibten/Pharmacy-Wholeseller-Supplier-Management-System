@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../assets/logo.png"; // Replace with your pharmacy logo path
+import logo from "../../assets/mk.png"; // Replace with your pharmacy logo path
 import galleryImage1 from "../../assets/gallery1.jpg"; // Replace with actual pharmacy images
 import galleryImage2 from "../../assets/gallery2.jpg";
 import galleryImage3 from "../../assets/gallery3.jpg";
