@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,75 +22,24 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  late WebViewController _webViewController;
-  bool _isLoading = true;
-
-  @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
-        if (_webViewController != null) {
-          if (await _webViewController.canGoBack()) {
-            _webViewController.goBack();
-            return false; // Do not close the app
-          }
-        }
-        return true; // Close the app
-      },
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            '',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontStyle: FontStyle.normal,
-              fontSize: 20,
-              color: Colors.black,
-            ),
-          ),
-          backgroundColor: Colors.white,
-          foregroundColor: Colors.black,
-          centerTitle: true,
-          toolbarHeight: 10, // Set the desired height
+    return Scaffold(
+      body: InAppWebView(
+        initialUrlRequest: URLRequest(
+          url: WebUri("https://pharmacywholeseller.vercel.app/"),
         ),
-        body: Stack(
-          children: [
-            WebView(
-              initialUrl: 'https://pharmacywholeseller.vercel.app/',
-              javascriptMode: JavascriptMode.unrestricted,
-              onWebViewCreated: (WebViewController webViewController) {
-                _webViewController = webViewController;
-              },
-              onPageStarted: (String url) {
-                setState(() {
-                  _isLoading = true;
-                });
-              },
-              onPageFinished: (String url) {
-                setState(() {
-                  _isLoading = false;
-                });
-              },
-            ),
-            if (_isLoading)
-              Center(
-                child: Theme(
-                  data: ThemeData(
-                    colorScheme: ColorScheme.fromSwatch().copyWith(
-                        secondary: Colors.blue), // Set your desired color here
-                  ),
-                  child: CircularProgressIndicator(),
-                ),
-              ),
-          ],
+        initialOptions: InAppWebViewGroupOptions(
+          crossPlatform: InAppWebViewOptions(
+            javaScriptEnabled: true,
+            mediaPlaybackRequiresUserGesture: false,
+          ),
+          android: AndroidInAppWebViewOptions(
+            useHybridComposition: true,
+          ),
         ),
       ),
     );
