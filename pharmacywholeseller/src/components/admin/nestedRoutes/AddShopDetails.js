@@ -54,14 +54,19 @@ const AddShopDetails = () => {
   };
 
   // const services = "s";
-  function ImageHandler(e) {
-    setImage(URL.createObjectURL(e.target.files[0]));
-    setSaveImage(e.target.files[0]);
+function ImageHandler(e) {
+  const file = e.target.files[0];
+  setSaveImage(file);
+
+  if (file) {
+    const reader = new FileReader();
+    reader.onloadend = () => {
+      setImage(reader.result); // Base64 Data URL
+    };
+    reader.readAsDataURL(file);
   }
-  function ImageHandler(e) {
-    setImage(URL.createObjectURL(e.target.files[0]));
-    setSaveImage(e.target.files[0]);
-  }
+}
+
 
   const SubmitHandler = async (e) => {
     e.preventDefault();
