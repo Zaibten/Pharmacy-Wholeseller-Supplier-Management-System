@@ -179,7 +179,7 @@ const addToCart = (service) => {
             ) : (
               <div className="col-12 col-sm-8 ms-sm-3 d-flex text-white">
                 <div>
-                  <span>Restaurent Name: {shopDetails.shopName}</span>
+                  <span>Supplier Name: {shopDetails.shopName}</span>
                   <br />
                   {/* <span>Owner: {shopDetails.name}</span><br /> */}
                   <span>

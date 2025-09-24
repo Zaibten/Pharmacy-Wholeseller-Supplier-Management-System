@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-const  config = {
+const config = {
   apiKey: "AIzaSyBDtmCqkkqlmzGuNqHe-PehhDg5tZiPSsQ",
   authDomain: "pharma-sync-project.firebaseapp.com",
   projectId: "pharma-sync-project",
