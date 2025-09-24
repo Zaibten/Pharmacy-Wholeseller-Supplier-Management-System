@@ -20,6 +20,8 @@ const AddToCartPage = () => {
   const [couponRedeemed, setCouponRedeemed] = useState(false);
 
 
+
+
   const [deliveryDetails, setDeliveryDetails] = useState({
     name: "",
     contact: "",
@@ -31,6 +33,16 @@ const AddToCartPage = () => {
     const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
     setCartItems(storedCart);
   }, []);
+
+
+useEffect(() => {
+  if (!sessionStorage.getItem("cartPageReloaded")) {
+    sessionStorage.setItem("cartPageReloaded", "true");
+    setTimeout(() => {
+      window.location.reload();
+    }, 100); // small delay
+  }
+}, []);
 
   useEffect(() => {
     const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
